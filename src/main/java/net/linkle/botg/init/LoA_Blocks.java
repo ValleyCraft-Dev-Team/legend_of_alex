@@ -1,13 +1,14 @@
 package net.linkle.botg.init;
 
+import net.linkle.botg.blocks.PotBlock;
 import net.linkle.botg.utils.Util;
 import net.minecraft.block.*;
 import net.minecraft.item.Item;
 import net.minecraft.sound.BlockSoundGroup;
 
 public class LoA_Blocks {
-    public static final Block TAN_POT = new OreBlock(AbstractBlock.Settings.copy(Blocks.GLASS).breakInstantly());
-    public static final Block BLUE_POT = new OreBlock(AbstractBlock.Settings.copy(Blocks.GLASS).breakInstantly());
+    public static final Block TAN_POT = new PotBlock();
+    public static final Block BLUE_POT = new PotBlock();
 
     //public static final Block SKY_STONE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
     public static final Block SKY_GRASS = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
