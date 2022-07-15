@@ -1,0 +1,6 @@
+{
+	"parent": "botg:block/brazier_off",
+	"textures": {
+		"pot": "botg:blocks/polished_stone_bricks"
+	}
+}

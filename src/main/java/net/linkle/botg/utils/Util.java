@@ -3,12 +3,19 @@ package net.linkle.botg.utils;
 import static net.linkle.botg.Main.MOD_ID;
 
 import net.minecraft.block.Block;
+import net.minecraft.fluid.Fluids;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class Util {
+    
+    public static boolean inWater(ItemPlacementContext context) {
+        return context.getWorld().getFluidState(context.getBlockPos()).getFluid() == Fluids.WATER;
+    }
+    
     public static Item register(String ID, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MOD_ID, ID), item);
     }

@@ -1,0 +1,10 @@
+{
+  "variants": {
+	"waterlogged=false": {
+	  "model": "botg:block/brazier_soul"
+	},
+	"waterlogged=true": {
+	  "model": "botg:block/brazier_soul_off"
+	}
+  }
+}

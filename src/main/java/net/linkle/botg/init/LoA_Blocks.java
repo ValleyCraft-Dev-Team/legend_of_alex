@@ -1,6 +1,6 @@
 package net.linkle.botg.init;
 
-import net.linkle.botg.blocks.PotBlock;
+import net.linkle.botg.blocks.*;
 import net.linkle.botg.utils.Util;
 import net.minecraft.block.*;
 import net.minecraft.item.Item;
@@ -21,12 +21,15 @@ public class LoA_Blocks {
     public static final Block LANAYRU_CRACKED = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
     public static final Block LANAYRU_HARDENED = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
     public static final Block LANAYRU_SMOOTH = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block LANAYRU_DRAIN = new Block(AbstractBlock.Settings.copy(Blocks.MAGMA_BLOCK).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_DRAIN = new MagmaBlock(AbstractBlock.Settings.copy(Blocks.MAGMA_BLOCK).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
 
     public static final Block SKY_PATH = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
     //public static final Block SKY_COBBLE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
 
     public static final Block CRATE = new BarrelBlock(AbstractBlock.Settings.copy(Blocks.BARREL));
+    
+    public static final Block BRAZIER = new BrazierBlock(15, 1);
+    public static final Block SOUL_BRAZIER = new BrazierBlock(10, 2);
 
     public static final Block OLD_COBWEB = new CobwebBlock(AbstractBlock.Settings.copy(Blocks.COBWEB));
 
@@ -53,6 +56,9 @@ public class LoA_Blocks {
         Util.registerWithItem("lanayru_pot", LANAYRU_POT, itemSettings());
 
         Util.registerWithItem("crate", CRATE, itemSettings());
+        
+        Util.registerWithItem("brazier", BRAZIER, itemSettings());
+        Util.registerWithItem("soul_brazier", SOUL_BRAZIER, itemSettings());
 
         Util.registerWithItem("old_cobweb", OLD_COBWEB, itemSettings());
 
