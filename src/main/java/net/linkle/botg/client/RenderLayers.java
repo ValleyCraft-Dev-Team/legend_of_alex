@@ -20,6 +20,7 @@ public class RenderLayers {
         //put(IABlocks.AMETHYST_GLASS_PANE,cullout);
         // Only use translucent if the block's texture contains translucent pixels.
         var translucent = RenderLayer.getTranslucent();
+        put(LoA_Blocks.WINDOW,translucent);
         //put(IABlocks.AMETHYST_GLASS_PANE, translucent);
         // Example:
         // put(Blocks.GLASS, cullout);
