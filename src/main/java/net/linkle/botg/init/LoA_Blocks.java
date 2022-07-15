@@ -21,7 +21,9 @@ public class LoA_Blocks {
     public static final Block LANAYRU_CRACKED = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
     public static final Block LANAYRU_HARDENED = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
     public static final Block LANAYRU_SMOOTH = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block LANAYRU_DRAIN = new Block(AbstractBlock.Settings.copy(Blocks.MAGMA_BLOCK).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_DRAIN = new MagmaBlock(AbstractBlock.Settings.copy(Blocks.MAGMA_BLOCK).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_FLOOR = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block BANISTER = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
 
     public static final Block SKY_PATH = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
     //public static final Block SKY_COBBLE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
@@ -49,7 +51,10 @@ public class LoA_Blocks {
         Util.registerWithItem("lanayru_hardened_bricks", LANAYRU_HARDENED, itemSettings());
         Util.registerWithItem("lanayru_drain", LANAYRU_DRAIN, itemSettings());
         Util.registerWithItem("lanayru_smooth_stone", LANAYRU_SMOOTH, itemSettings());
-
+        //skyloft specific blocks i guess
+        Util.registerWithItem("lanayru_floor", LANAYRU_FLOOR, itemSettings());
+        Util.registerWithItem("banister", BANISTER, itemSettings());
+        //
         Util.registerWithItem("lanayru_pot", LANAYRU_POT, itemSettings());
 
         Util.registerWithItem("crate", CRATE, itemSettings());
