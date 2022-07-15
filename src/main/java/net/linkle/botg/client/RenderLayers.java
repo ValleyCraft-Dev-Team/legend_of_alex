@@ -14,9 +14,11 @@ public class RenderLayers {
     public static void initialize() {
         // Only use cullout if the block's texture contains empty pixels.
         var cullout = RenderLayer.getCutout();
-        put(LoA_Blocks.TAN_POT,cullout);
-        put(LoA_Blocks.BLUE_POT,cullout);
-        put(LoA_Blocks.OLD_COBWEB,cullout);
+        put(LoA_Blocks.TAN_POT, cullout);
+        put(LoA_Blocks.BLUE_POT, cullout);
+        put(LoA_Blocks.OLD_COBWEB, cullout);
+        put(LoA_Blocks.BRAZIER, cullout);
+        put(LoA_Blocks.SOUL_BRAZIER, cullout);
         //put(IABlocks.AMETHYST_GLASS_PANE,cullout);
         // Only use translucent if the block's texture contains translucent pixels.
         var translucent = RenderLayer.getTranslucent();

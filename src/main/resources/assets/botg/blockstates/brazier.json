@@ -1,0 +1,10 @@
+{
+  "variants": {
+	"waterlogged=false": {
+	  "model": "botg:block/brazier_fire"
+	},
+	"waterlogged=true": {
+	  "model": "botg:block/brazier_fire_off"
+	}
+  }
+}
