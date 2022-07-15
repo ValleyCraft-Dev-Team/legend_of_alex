@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "botg:blocks/tan_clay_pot",
-		"particle": "botg:blocks/tan_clay_pot"
+		"0": "botg:blocks/tan_clay_pot_alt",
+		"particle": "botg:blocks/tan_clay_pot_alt"
 	},
 	"elements": [
 		{

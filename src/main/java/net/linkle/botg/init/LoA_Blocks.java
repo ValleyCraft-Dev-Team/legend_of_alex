@@ -12,6 +12,16 @@ public class LoA_Blocks {
 
     //public static final Block SKY_STONE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
     public static final Block SKY_GRASS = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
+
+    //plants
+    public static final Block BUSH = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block SHIVER_FERN = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block STARFLOWER = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block PINK_ORCA = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block SILENT_PRINCESS = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block VILEBLOOM = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block VILESHROOM = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+
     public static final Block LANAYRU_POT = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
     public static final Block LANAYRU_GRAVEL = new FallingBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).sounds(BlockSoundGroup.GRAVEL));
 
@@ -47,6 +57,15 @@ public class LoA_Blocks {
         //Util.registerWithItem("sky_cobblestone", SKY_COBBLE, itemSettings());
         Util.registerWithItem("sky_grass", SKY_GRASS, itemSettings());
         Util.registerWithItem("sky_path", SKY_PATH, itemSettings());
+
+        //plants
+        Util.registerWithItem("bush", BUSH, itemSettings());
+        Util.registerWithItem("shiver_fern", SHIVER_FERN, itemSettings());
+        Util.registerWithItem("starflower", STARFLOWER, itemSettings());
+        Util.registerWithItem("pink_orca", PINK_ORCA, itemSettings());
+        Util.registerWithItem("silent_princess", SILENT_PRINCESS, itemSettings());
+        Util.registerWithItem("vilebloom", VILEBLOOM, itemSettings());
+        Util.registerWithItem("vileshroom", VILESHROOM, itemSettings());
 
         Util.registerWithItem("lanayru_gravel", LANAYRU_GRAVEL, itemSettings());
         Util.registerWithItem("lanayru_symbol_brick", LANAYRU_SYMBOL, itemSettings());

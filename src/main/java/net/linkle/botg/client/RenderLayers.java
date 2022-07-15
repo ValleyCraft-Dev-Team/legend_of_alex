@@ -19,6 +19,14 @@ public class RenderLayers {
         put(LoA_Blocks.OLD_COBWEB, cullout);
         put(LoA_Blocks.BRAZIER, cullout);
         put(LoA_Blocks.SOUL_BRAZIER, cullout);
+        put(LoA_Blocks.PINK_ORCA, cullout);
+        put(LoA_Blocks.SILENT_PRINCESS, cullout);
+        put(LoA_Blocks.SHIVER_FERN, cullout);
+        put(LoA_Blocks.STARFLOWER, cullout);
+        put(LoA_Blocks.VILEBLOOM, cullout);
+        put(LoA_Blocks.VILESHROOM, cullout);
+        put(LoA_Blocks.BUSH, cullout);
+
         //put(IABlocks.AMETHYST_GLASS_PANE,cullout);
         // Only use translucent if the block's texture contains translucent pixels.
         var translucent = RenderLayer.getTranslucent();
