@@ -13,7 +13,7 @@ import java.util.List;
 
 public class NetheriteHammerItemBase extends PickaxeItem {
     public NetheriteHammerItemBase(ToolMaterial material) {
-        super(material, 5, -2.5f, new Settings().group(LoA_Group.IA_GROUP));
+        super(material, 5, -2.5f, new Settings().group(LoA_Group.LoA_Group));
     }
 
     @Override

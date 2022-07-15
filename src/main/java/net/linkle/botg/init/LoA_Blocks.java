@@ -3,16 +3,17 @@ package net.linkle.botg.init;
 import net.linkle.botg.utils.Util;
 import net.minecraft.block.*;
 import net.minecraft.item.Item;
+import net.minecraft.sound.BlockSoundGroup;
 
 public class LoA_Blocks {
     public static final Block TAN_POT = new OreBlock(AbstractBlock.Settings.copy(Blocks.GLASS).breakInstantly());
     public static final Block BLUE_POT = new OreBlock(AbstractBlock.Settings.copy(Blocks.GLASS).breakInstantly());
 
-    public static final Block SKY_STONE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
-    public static final Block SKY_GRASS = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
-    public static final Block SKY_PATH = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
-    public static final Block SKY_COBBLE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
-
+    //public static final Block SKY_STONE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
+    public static final Block SKY_GRASS = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
+    public static final Block LANAYRU_POT = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
+    public static final Block SKY_PATH = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
+    //public static final Block SKY_COBBLE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
 
     public static final Block CRATE = new BarrelBlock(AbstractBlock.Settings.copy(Blocks.BARREL));
 
@@ -24,10 +25,11 @@ public class LoA_Blocks {
         Util.registerWithItem("tan_clay_pot", TAN_POT, itemSettings());
         Util.registerWithItem("blue_clay_pot", BLUE_POT, itemSettings());
 
-        Util.registerWithItem("sky_stone", SKY_STONE, itemSettings());
-        Util.registerWithItem("sky_cobblestone", SKY_COBBLE, itemSettings());
+        //Util.registerWithItem("sky_stone", SKY_STONE, itemSettings());
+        //Util.registerWithItem("sky_cobblestone", SKY_COBBLE, itemSettings());
         Util.registerWithItem("sky_grass", SKY_GRASS, itemSettings());
         Util.registerWithItem("sky_path", SKY_PATH, itemSettings());
+        Util.registerWithItem("lanayru_pot", LANAYRU_POT, itemSettings());
 
         Util.registerWithItem("crate", CRATE, itemSettings());
 

@@ -13,7 +13,7 @@ import net.minecraft.world.World;
 
 public class HammerItemBase extends PickaxeItem {
     public HammerItemBase(ToolMaterial material) {
-        super(material, 1, 0.0f, new Settings().group(LoA_Group.IA_GROUP));
+        super(material, 1, 0.0f, new Settings().group(LoA_Group.LoA_Group));
     }
 
     @Override
