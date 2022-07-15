@@ -1,6 +1,22 @@
 {
-  "itemGroup.botg.": "",
-  "item.botg.": "",
-  "block.botg.": ""
+  "itemGroup.botg.legend_of_alex": "Legend of Alex",
+  "block.botg.": "",
+  "block.botg.tan_clay_pot": "Clay Pot",
+  "block.botg.blue_clay_pot": "Blue Clay Pot",
+  "block.botg.sky_grass": "Loft Grass",
+  "block.botg.sky_path": "Dry Loft Grass Path",
+  "block.botg.lanayru_gravel": "Lanayrian Desert Gravel",
+  "block.botg.lanayru_symbol_brick": "Lanayru Brick Carving",
+  "block.botg.lanayru_bricks": "Lanayrian Bricks",
+  "block.botg.lanayru_mossy_bricks": "Mossy Lanayrian Bricks",
+  "block.botg.lanayru_cracked_bricks": "Cracked Lanayrian Bricks",
+  "block.botg.lanayru_hardened_bricks": "Hardened Lanayrian Bricks",
+  "block.botg.lanayru_drain": "Lanayrian Brick Drain",
+  "block.botg.lanayru_smooth_stone": "Lanayrian Smooth Stone",
+  "block.botg.lanayru_floor": "Lanayrian Cobblestone",
+  "block.botg.lanayru_pot": "Skyloft Carved Flowerpot",
+  "block.botg.crate": "Crate",
+  "block.botg.old_cobweb": "Dusty Cobweb",
+  "block.botg.eldin_steel_block": "Block of Eldin Steel"
 
 }
