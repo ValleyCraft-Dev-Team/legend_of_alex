@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "botg:blocks/lanayru_smooth_stone",
+    "side": "botg:blocks/lanayru_symbol",
+    "top": "botg:blocks/lanayru_symbol"
+  }
+}

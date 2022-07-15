@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "botg:blocks/lanayru_hardened_bricks"
+  }
+}

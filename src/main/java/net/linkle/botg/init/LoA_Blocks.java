@@ -12,6 +12,16 @@ public class LoA_Blocks {
     //public static final Block SKY_STONE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
     public static final Block SKY_GRASS = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
     public static final Block LANAYRU_POT = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
+    public static final Block LANAYRU_GRAVEL = new FallingBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).sounds(BlockSoundGroup.GRAVEL));
+
+    public static final Block LANAYRU_SYMBOL = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_MOSSY = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_BRICKS = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_CRACKED = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_HARDENED = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_SMOOTH = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_DRAIN = new Block(AbstractBlock.Settings.copy(Blocks.MAGMA_BLOCK).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+
     public static final Block SKY_PATH = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
     //public static final Block SKY_COBBLE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
 
@@ -29,6 +39,16 @@ public class LoA_Blocks {
         //Util.registerWithItem("sky_cobblestone", SKY_COBBLE, itemSettings());
         Util.registerWithItem("sky_grass", SKY_GRASS, itemSettings());
         Util.registerWithItem("sky_path", SKY_PATH, itemSettings());
+
+        Util.registerWithItem("lanayru_gravel", LANAYRU_GRAVEL, itemSettings());
+        Util.registerWithItem("lanayru_symbol_brick", LANAYRU_SYMBOL, itemSettings());
+        Util.registerWithItem("lanayru_bricks", LANAYRU_BRICKS, itemSettings());
+        Util.registerWithItem("lanayru_mossy_bricks", LANAYRU_MOSSY, itemSettings());
+        Util.registerWithItem("lanayru_cracked_bricks", LANAYRU_CRACKED, itemSettings());
+        Util.registerWithItem("lanayru_hardened_bricks", LANAYRU_HARDENED, itemSettings());
+        Util.registerWithItem("lanayru_drain", LANAYRU_DRAIN, itemSettings());
+        Util.registerWithItem("lanayru_smooth_stone", LANAYRU_SMOOTH, itemSettings());
+
         Util.registerWithItem("lanayru_pot", LANAYRU_POT, itemSettings());
 
         Util.registerWithItem("crate", CRATE, itemSettings());
