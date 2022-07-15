@@ -1,0 +1,39 @@
+{
+  "parent": "ia:geology/root",
+  "display": {
+    "title": {
+      "text": "To Dig and Dig Makes Us Free"
+    },
+    "icon": {
+      "item": "ia:geode_hammer"
+    },
+    "description": {
+      "text": "Use a Rock Hammer to harvest an Amethyst Cluster",
+      "color": "gold"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ia:enriched_geode"
+    ]
+  },
+  "criteria": {
+    "amethyst_cluster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_cluster"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "amethyst_cluster"
+    ]
+  ]
+}

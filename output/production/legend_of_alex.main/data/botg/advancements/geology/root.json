@@ -1,0 +1,52 @@
+{
+  "display": {
+    "title": {
+      "text": "Rudimentary Geology",
+      "bold": false
+    },
+    "description": {
+      "text": "Find an Amethyst Geode",
+      "color": "light_purple"
+    },
+    "icon": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "ia:textures/background/background.png"
+  },
+  "rewards": {
+    "recipes": [
+      "ia:geode_hammer"
+    ]
+  },
+    "criteria": {
+      "related_items": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:amethyst_cluster",
+                "minecraft:amethyst_shard",
+                "minecraft:amethyst_block",
+                "minecraft:small_amethyst_bud",
+                "minecraft:medium_amethyst_bud",
+                "minecraft:large_amethyst_bud",
+                "minecraft:budding_amethyst",
+                "minecraft:calcite",
+                "minecraft:smooth_basalt"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "related_items"
+      ]
+    ]
+  }

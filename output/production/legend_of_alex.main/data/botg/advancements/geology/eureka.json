@@ -1,0 +1,36 @@
+{
+  "parent": "ia:geology/budding_amethyst",
+  "display": {
+    "title": {
+      "text": "Eureka!"
+    },
+    "icon": {
+      "item": "minecraft:budding_amethyst"
+    },
+    "description": {
+      "text": "Successfully create Budding Amethyst for growing Clusters",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "hidden": false
+  },
+  "criteria": {
+    "budding_amethyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:budding_amethyst"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "budding_amethyst"
+    ]
+  ]
+}
