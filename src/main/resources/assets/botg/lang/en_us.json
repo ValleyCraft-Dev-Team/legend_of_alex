@@ -29,7 +29,9 @@
   "block.botg.vileshroom": "Vileshroom",
   "block.botg.shiver_fern": "Soul Fern",
   "block.botg.starflower": "Star Flower",
-  "block.botg.bush": "Bush"
-
-
+  "block.botg.bush": "Bush",
+  "block.botg.net": "Net",
+  "block.botg.rope_bridge": "Rope Bridge",
+  "block.botg.rope_bridge_anchor": "Rope Bridge Anchor",
+  "block.botg.rope": "Rope"
 }

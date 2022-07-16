@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "botg:block/rope_bridge",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "botg:block/rope_bridge"
+    },
+    "facing=south": {
+      "model": "botg:block/rope_bridge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "botg:block/rope_bridge",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "botg:block/climbable_rope",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "botg:block/climbable_rope"
+    },
+    "axis=z": {
+      "model": "botg:block/climbable_rope",
+      "x": 90
+    }
+  }
+}

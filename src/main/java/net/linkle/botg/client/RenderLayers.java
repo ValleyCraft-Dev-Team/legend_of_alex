@@ -26,6 +26,7 @@ public class RenderLayers {
         put(LoA_Blocks.VILEBLOOM, cullout);
         put(LoA_Blocks.VILESHROOM, cullout);
         put(LoA_Blocks.BUSH, cullout);
+        put(LoA_Blocks.NET, cullout);
 
         //put(IABlocks.AMETHYST_GLASS_PANE,cullout);
         // Only use translucent if the block's texture contains translucent pixels.

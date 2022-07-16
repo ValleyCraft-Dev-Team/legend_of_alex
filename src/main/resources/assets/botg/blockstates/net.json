@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "botg:block/net_horizontal"
+    },
+    "facing=east": {
+      "model": "botg:block/net_vertical",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "botg:block/net_vertical"
+    },
+    "facing=south": {
+      "model": "botg:block/net_vertical"
+    },
+    "facing=down": {
+      "model": "botg:block/net_horizontal_bottom"
+    },
+    "facing=west": {
+      "model": "botg:block/net_vertical",
+      "y": 270
+    }
+  }
+}

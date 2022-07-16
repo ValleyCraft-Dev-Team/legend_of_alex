@@ -10,44 +10,61 @@ public class LoA_Blocks {
     public static final Block TAN_POT = new PotBlock();
     public static final Block BLUE_POT = new PotBlock();
 
-    //public static final Block SKY_STONE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
-    public static final Block SKY_GRASS = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
+    //public static final Block SKY_STONE = new Block(Block.Settings.copy(Blocks.COARSE_DIRT));
+    public static final Block SKY_GRASS = new Block(Block.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
 
     //plants
-    public static final Block BUSH = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
-    public static final Block SHIVER_FERN = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
-    public static final Block STARFLOWER = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
-    public static final Block PINK_ORCA = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
-    public static final Block SILENT_PRINCESS = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
-    public static final Block VILEBLOOM = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
-    public static final Block VILESHROOM = new DecorativePlantBlock(AbstractBlock.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block BUSH = new DecorativePlantBlock(Block.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block SHIVER_FERN = new DecorativePlantBlock(Block.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block STARFLOWER = new DecorativePlantBlock(Block.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block PINK_ORCA = new DecorativePlantBlock(Block.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block SILENT_PRINCESS = new DecorativePlantBlock(Block.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block VILEBLOOM = new DecorativePlantBlock(Block.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
+    public static final Block VILESHROOM = new DecorativePlantBlock(Block.Settings.copy(Blocks.FERN).sounds(BlockSoundGroup.GRASS));
 
-    public static final Block LANAYRU_POT = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
-    public static final Block LANAYRU_GRAVEL = new FallingBlock(AbstractBlock.Settings.copy(Blocks.GRAVEL).sounds(BlockSoundGroup.GRAVEL));
+    public static final Block LANAYRU_POT = new Block(Block.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
+    public static final Block LANAYRU_GRAVEL = new FallingBlock(Block.Settings.copy(Blocks.GRAVEL).sounds(BlockSoundGroup.GRAVEL));
 
-    public static final Block LANAYRU_SYMBOL = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block LANAYRU_MOSSY = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block LANAYRU_BRICKS = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block LANAYRU_CRACKED = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block LANAYRU_HARDENED = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block LANAYRU_SMOOTH = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block LANAYRU_DRAIN = new MagmaBlock(AbstractBlock.Settings.copy(Blocks.MAGMA_BLOCK).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block LANAYRU_FLOOR = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block BANISTER = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block LANAYRU_WALL = new Block(AbstractBlock.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
-    public static final Block WINDOW = new GlassBlock(AbstractBlock.Settings.copy(Blocks.GLASS).sounds(BlockSoundGroup.GLASS));
+    public static final Block LANAYRU_SYMBOL = new Block(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_MOSSY = new Block(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_BRICKS = new Block(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_CRACKED = new Block(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_HARDENED = new Block(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_SMOOTH = new Block(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_DRAIN = new MagmaBlock(Block.Settings.copy(Blocks.MAGMA_BLOCK).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_FLOOR = new Block(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block BANISTER = new Block(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block LANAYRU_WALL = new Block(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE_BRICKS));
+    public static final Block WINDOW = new GlassBlock(Block.Settings.copy(Blocks.GLASS).sounds(BlockSoundGroup.GLASS));
 
-    public static final Block SKY_PATH = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
-    //public static final Block SKY_COBBLE = new Block(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
+    public static final Block SKY_PATH = new Block(Block.Settings.copy(Blocks.COARSE_DIRT).sounds(BlockSoundGroup.DEEPSLATE));
+    //public static final Block SKY_COBBLE = new Block(Block.Settings.copy(Blocks.COARSE_DIRT));
 
-    public static final Block CRATE = new BarrelBlock(AbstractBlock.Settings.copy(Blocks.BARREL));
+    public static final Block CRATE = new BarrelBlock(Block.Settings.copy(Blocks.BARREL));
     
     public static final Block BRAZIER = new BrazierBlock(15, 1);
     public static final Block SOUL_BRAZIER = new BrazierBlock(10, 2);
+    
+    public static final Block ROPE_BRIDGE = new BridgeBlock(
+            Block.Settings.of(Material.CARPET).nonOpaque()
+            .sounds(BlockSoundGroup.WOOD)
+            .strength(1.0f,1f));
 
-    public static final Block OLD_COBWEB = new CobwebBlock(AbstractBlock.Settings.copy(Blocks.COBWEB));
+    public static final Block ROPE_BRIDGE_ANCHOR = new BridgeBlock(
+            Block.Settings.of(Material.CARPET).nonOpaque()
+            .sounds(BlockSoundGroup.WOOD)
+            .strength(1.0f,1f).noCollision());
+    
+    public static final Block NET = new NetBlock();
+    
+    public static final Block ROPE = new ChainBlock(
+            Block.Settings.of(Material.CARPET)
+            .nonOpaque().strength(0,0.1f)
+            .sounds(BlockSoundGroup.NETHER_STEM));
 
-    public static final Block ELDIN_STEEL_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
+    public static final Block OLD_COBWEB = new CobwebBlock(Block.Settings.copy(Blocks.COBWEB));
+
+    public static final Block ELDIN_STEEL_BLOCK = new Block(Block.Settings.copy(Blocks.IRON_BLOCK));
 
     public static void initialize() {
         Util.registerWithItem("tan_clay_pot", TAN_POT, itemSettings());
@@ -85,6 +102,10 @@ public class LoA_Blocks {
         Util.registerWithItem("lanayru_pot", LANAYRU_POT, itemSettings());
 
         Util.registerWithItem("crate", CRATE, itemSettings());
+        Util.registerWithItem("rope_bridge", ROPE_BRIDGE, itemSettings());
+        Util.registerWithItem("rope_bridge_anchor", ROPE_BRIDGE_ANCHOR, itemSettings());
+        Util.registerWithItem("net", NET, itemSettings());
+        Util.registerWithItem("rope", ROPE, itemSettings());
         
         Util.registerWithItem("brazier", BRAZIER, itemSettings());
         Util.registerWithItem("soul_brazier", SOUL_BRAZIER, itemSettings());
