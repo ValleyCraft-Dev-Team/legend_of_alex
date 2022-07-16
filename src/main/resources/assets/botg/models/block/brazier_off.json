@@ -5,7 +5,7 @@
 		"pot":   "botg:blocks/polished_stone_bricks",
 		"stick": "botg:blocks/sticks",
 		"bend":  "botg:blocks/orange_kelp_side",
-		"particle": "minecraft:blocks/oak_planks"
+		"particle": "minecraft:block/oak_planks"
 	},
 	"elements": [
 		{

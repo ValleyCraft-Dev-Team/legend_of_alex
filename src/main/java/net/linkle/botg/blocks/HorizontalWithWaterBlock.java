@@ -25,10 +25,10 @@ public class HorizontalWithWaterBlock extends HorizontalBlock implements Waterlo
     protected HorizontalWithWaterBlock(Settings settings) {
         super(settings);
     }
-
+    
     @Override
-    protected void setDefaultState() {
-        setDefaultState(stateManager.getDefaultState().with(FACING, Direction.NORTH).with(WATERLOGGED, false));
+    protected BlockState newDefaultState() {
+        return super.newDefaultState().with(WATERLOGGED, false);
     }
 
     /** Please call this subclass method to append facing and waterlogged properties: <code>super.getPlacementState(ctx)</code> */

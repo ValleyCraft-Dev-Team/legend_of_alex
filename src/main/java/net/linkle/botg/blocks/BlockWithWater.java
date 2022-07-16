@@ -27,8 +27,13 @@ public class BlockWithWater extends Block implements Waterloggable {
     }
 
     /** A common method to set its default state. */
-    protected void setDefaultState() {
-        setDefaultState(stateManager.getDefaultState().with(WATERLOGGED, false));
+    protected final void setDefaultState() {
+        setDefaultState(newDefaultState());
+    }
+    
+    /** A common method to get a new default state. */
+    protected BlockState newDefaultState() {
+        return stateManager.getDefaultState().with(WATERLOGGED, false);
     }
 
     @Override

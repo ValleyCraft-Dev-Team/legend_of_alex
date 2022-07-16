@@ -19,8 +19,13 @@ public class HorizontalBlock extends HorizontalFacingBlock {
     }
 
     /** A common method to set its default state. */
-    protected void setDefaultState() {
-        setDefaultState(stateManager.getDefaultState().with(FACING, Direction.NORTH));
+    protected final void setDefaultState() {
+        setDefaultState(newDefaultState());
+    }
+    
+    /** A common method to get a new default state. */
+    protected BlockState newDefaultState() {
+        return stateManager.getDefaultState().with(FACING, Direction.NORTH);
     }
 
     /**
